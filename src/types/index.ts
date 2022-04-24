@@ -2,4 +2,13 @@ interface API {}
 
 interface ContextInterFace {}
 
-export type {};
+type reducerState = { count: number };
+
+type ACTIONTYPE =
+  | { type: "increment" }
+  | { type: "decrement" }
+  | { type: "reset"; payload: number };
+
+type initialState = { count: number };
+
+export type { ACTIONTYPE, reducerState, initialState };
