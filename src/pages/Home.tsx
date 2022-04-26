@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material";
 import React from "react";
+import Form from "../components/Form";
 import Hello from "../components/Hello";
 import Landing from "../components/Landing";
 import List from "../components/List";
@@ -15,6 +16,7 @@ function Home() {
         <Hello />
         <Landing />
         <List />
+        <Form />
       </Grid>
     </Layout>
   );

@@ -7,7 +7,7 @@ function Hello() {
   const { state, dispatch } = useContext(Context);
 
   return (
-    <Container sx={{ mt: 8, mb: 2, width: "100%" }}>
+    <Container maxWidth='lg' sx={{ mt: 8, mb: 2, width: "100%" }}>
       <Typography variant='h2' component='h1' gutterBottom align='center'>
         {"React 18 + TypeScript + Material UI boilerplate "}
       </Typography>
